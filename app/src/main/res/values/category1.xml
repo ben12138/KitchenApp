@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category1">
+        <item>鲁菜</item>
+        <item>浙菜</item>
+        <item>川菜</item>
+        <item>粤菜</item>
+        <item>苏菜</item>
+        <item>闽菜</item>
+        <item>湘菜</item>
+        <item>徽菜</item>
+        <item>家常菜</item>
+    </string-array>
+    <string-array name="category2">
+        <item>凉菜</item>
+        <item>热菜</item>
+        <item>甜品</item>
+        <item>汤</item>
+        <item>主食</item>
+        <item>自制</item>
+        <item>饮品</item>
+    </string-array>
+    <string-array name="category3">
+        <item>水果</item>
+        <item>蛋类</item>
+        <item>肉类</item>
+        <item>奶类</item>
+        <item>腌肉腌菜</item>
+        <item>粮油干果</item>
+        <item>调味辅料</item>
+    </string-array>
+</resources>

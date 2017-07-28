@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jlkj.kitchen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.FindPasswordActivity" />
+        <activity android:name=".activity.RegisterActivity1" />
+        <activity android:name=".activity.RegisterActivity2" />
+        <activity android:name=".activity.RegisterActivity3" />
+        <activity android:name=".activity.ChangeInfActivity1" />
+        <activity android:name=".activity.ChangeInfActivity2" />
+        <activity android:name=".activity.SendQuestionActivity" />
+        <activity android:name=".activity.AnswerActivity" />
+        <activity android:name=".activity.PlusActivity" />
+        <activity android:name=".activity.AddMenuActivity" />
+        <activity android:name=".activity.AddProductionActivity" />
+        <activity android:name=".activity.RankActivity" />
+        <activity android:name=".activity.MenuInfActivity" />
+        <activity android:name=".activity.ProductionInfActivity" />
+        <activity android:name=".activity.SearchMenuActivity" />
+        <activity android:name=".activity.AllCourseActivity" />
+        <activity
+            android:name=".activity.ShowVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".activity.SendCourseCommentActivity" />
+        <activity android:name=".activity.CategroyActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+    </application>
+
+</manifest>
