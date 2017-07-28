@@ -26,4 +26,5 @@
 
 6.报名，取消报名课程，观看课程视频，课程评论
 
-<img src="http://"/>
+功能模块图
+<img src="https://github.com/ben12138/picStore/blob/master/kitchen_function.png">
